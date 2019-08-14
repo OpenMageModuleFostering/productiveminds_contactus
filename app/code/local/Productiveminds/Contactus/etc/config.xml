@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Productiveminds_Contactus>
+            <version>0.1.4</version>
+        </Productiveminds_Contactus>
+    </modules>
+    <frontend>
+    	<layout>
+            <updates>
+                <contactus>
+                    <file>productiveminds/contactus.xml</file>
+                </contactus>
+            </updates>
+        </layout>
+        <routers>
+        	<contactus>
+                <use>standard</use>
+                <args>
+                    <module>Productiveminds_Contactus</module>
+                    <frontName>contactus</frontName>
+                </args>
+            </contactus>
+        </routers>
+	</frontend>
+    <global>
+        <models>
+            <contactus>
+                <class>Productiveminds_Contactus_Model</class>
+            </contactus>
+        </models>
+        <blocks>
+            <contactus>
+                <class>Productiveminds_Contactus_Block</class>
+            </contactus>
+        </blocks>
+        <helpers>
+            <contactus>
+                <class>Productiveminds_Contactus_Helper</class>
+            </contactus>
+        </helpers>
+        <template>
+            <email>
+                <contactus_sectns_contactus_grps_email_template translate="label" module="contactus">
+                    <label>ProductiveMinds Contactus Email Template</label>
+                    <file>productiveminds/contactus.html</file>
+                    <type>text</type>
+                </contactus_sectns_contactus_grps_email_template>
+            </email>
+        </template>
+    </global>
+    <default>
+    	<contactus_sectns>
+			<contactus_grps>
+				<enabled>1</enabled>
+				<confirmation_message>Your inquiry was submitted and will be responded to as soon as possible. Thank you for contacting us.</confirmation_message>
+			</contactus_grps>
+			<overlay_properties>
+				<title>Contact Us</title>
+				<width>480</width>
+				<height>480</height>
+			</overlay_properties>
+		</contactus_sectns>
+	</default>
+</config>

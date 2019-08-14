@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <productiveminds translate="title" module="contactus">
+            <children>
+            	<contactus module="contactus">
+			    	<title>Contact us</title>
+			    	<sort_order>50</sort_order>
+			   		<children>
+		                <settings translate="title" module="contactus">
+		                    <title>Settings</title>
+		                    <sort_order>10</sort_order>
+		                    <action>adminhtml/system_config/edit/section/contactus_sectns</action>
+		                </settings>
+			    	</children>
+		   		</contactus>
+            </children>
+        </productiveminds>
+    </menu>
+	<acl>
+	    <resources>
+	        <admin>
+	            <children>
+	                <system>
+	                    <children>
+	                        <config>
+	                            <children>
+	                                <contactus_sectns translate="title" module="contactus">
+	                                    <title>Productiveminds Contactus</title>
+	                                </contactus_sectns>
+	                            </children>
+	                        </config>
+	                    </children>
+	                </system>
+	            </children>
+	        </admin>
+	    </resources>
+	</acl>
+ </config>

@@ -1,0 +1,318 @@
+
+.header-contactus {
+	width: 100%;
+	background: #36454f;
+}
+.header-contactus .header {
+	padding: 0;
+	height: 40px;
+	color: #fff;
+	width: 950px;
+	margin: 0 auto;
+	text-align: left;
+}
+.header-contactus .header-content {
+	padding: 10px 0px;
+}
+
+.header-contactus .header-content img.arrow {
+	margin: 4px 0 0 4px;
+}
+
+.header-contactus .header .header-content a.button {
+    color: #fff;
+    height: 19px;
+    padding: 0 8px;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid #de5400;
+    background: none repeat scroll 0 0 #f18200;
+    font: bold 12px/19px Arial,Helvetica,sans-serif;
+}
+.header-contactus .header .header-content a.button:hover {
+    color: #f18200;
+    text-decoration: none;
+    background: none repeat scroll 0 0 #fff;
+}
+
+.header-content .currency-text {
+}
+.header-content img {
+	margin: 1px 5px 0px 0px;
+}
+.header-content a {
+	color: #fff;
+	font-weight: 600;
+	text-decoration: none;
+}
+.header-content a:hover {
+	color: #999;
+	text-decoration: underline;
+}
+
+.lefted {
+	float: left;
+}
+
+.righted {
+	float: right;
+}
+
+.eighty_left_margin {
+	margin-left: 80px !important;
+}
+
+
+.overlay_dialog {
+	background: #36454f;
+	filter:alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.overlay___invisible__ {
+  background: #fff;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+}
+
+.top_draggable, .bottom_draggable {
+  cursor:move;
+}
+
+.status_bar {
+  font-size:12px;
+}
+.status_bar input{
+  font-size:12px;
+}
+
+.wired_frame {
+	display: block;
+  	position: absolute;
+  	border: 1px #36454f dashed;
+}
+
+.dialog {
+	display: block;
+	position: absolute;
+	border: none; 
+}
+.dialog .bot { display: none; }
+
+.dialog table.table_window  { 
+  	border-collapse: collapse; 
+  	border-spacing: 0; 
+  	width: 100%;
+	margin: 0px;
+	padding:0px;
+}
+
+.dialog table.table_window td , .dialog table.table_window th { 
+  padding: 0; 
+}
+
+.dialog .title_window {
+  -moz-user-select:none;
+}                                                    
+.overlay_contactus { 
+	opacity:.5; 
+	-moz-opacity:.5; 
+	-webkit-opacity:.5; 
+	background-color:#36454f; 
+	filter:alpha(opacity=60); 
+}
+
+.top.table_window { border-bottom: none; background: transparent; }
+
+#contactusConfirm_window {
+}
+#contactusConfirm_window_row1,
+#contactusConfirm_window_row2,
+#contactusConfirm_window_row3 {
+}
+
+#contactusConfirm_window_row1 { 
+	padding-left: 10px;
+}
+
+#contactusConfirm_window_row2 {
+}
+
+.contactus_n {
+	
+}
+
+#contactusConfirm_window_row3,
+.contactus_w,
+.contactus_e,
+.contactus_s, 
+.contactus_sw, 
+.contactus_se, 
+.contactus_sizer, 
+.contactus_minimize, 
+.contactus_maximize {
+	display: none;
+}
+
+.contactus_close { 
+	top: 15px; 
+	right: 7px;
+	width: 16px; 
+	height: 16px;  
+	position:absolute; 
+	cursor:pointer; 
+	z-index:1000;
+	background:url(../images/window_close.png) no-repeat 0 0;
+}
+.contactus_title { 
+	float: left; 
+	width: 100%; 
+	color: #fff;
+	background: #36454f;
+	padding: 5px 0px 5px 10px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 600;
+	border: 5px solid #36454f !important;
+	border-bottom: none;
+}
+#contactusConfirm_window_content {
+	border: 10px solid #36454f ;
+	border-top: none !important;
+}
+.contactus_content { 
+	overflow:auto;
+	font-size:12px;
+}
+.contactus_container {
+	min-width: 360px !important;
+    padding: 5px;
+}
+.contactus_container .fields,
+.contactus_container .fieldset,
+.contactus_container .page-title {
+    width: 100%;
+}
+.contactus_container .page-title {
+	border: none;
+    margin: 0px 0px 10px 0px;
+}
+
+.contactus_container h1 {
+    margin: 0px;
+}
+
+.contactus_container .fields,
+.contactus_container .fieldset {
+    margin: 0;
+    padding: 0px;
+}
+.contactus_container .fieldset {
+	padding: 0px;
+}
+.contactus_container .form-list li {
+    margin: 0 0 10px;
+}
+.contactus_container select, 
+.contactus_container textarea, 
+.contactus_container input.input-text, 
+.contactus_container .form-list select, 
+.contactus_container .form-list li.wide select, 
+.contactus_container .form-list input.input-text {
+    box-sizing: border-box;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+.contactus_container .form-list input,
+.contactus_container .form-list select,
+.contactus_container .form-list textarea,
+.contactus_container .form-list .input-box,
+.contactus_container .form-list li.wide .input-box {
+    width: 100% !important; 
+    box-shadow: 0 0 0 0 !important;
+}
+.contactus_container textarea, 
+.contactus_container input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="file"]):not([type="image"]) {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #bbb;
+    border-radius: 1px;
+    color: #2f2f2f !important;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 120%;
+    max-width: 100%;
+    outline: 0 none;
+    padding: 7px;
+}
+.contactus_container .form-list select {
+    padding: 5px;
+    height: 36px;
+}
+.contactus_container .form-list select option {
+    padding: 5px;
+    border-bottom: 1px dotted #999;
+}
+.contactus_container .button-set {
+	margin: 0 !important;
+}
+
+.contactus_container .buttons-set {
+    width: 300px;
+    margin: 20px 0 0 0;
+}
+
+.form-list label {
+    color: #36454f;
+}
+.contactus_container button.button,
+.contactus_container button.button:hover {
+	padding: 5px 0 !important;
+    background: transparent !important;
+}
+.contactus_container button.button span {
+    height: auto;
+    color: #f6f6f6;
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 1px;
+    white-space: nowrap;
+    border: medium none;
+    background: none repeat scroll 0 0 #36454f;
+}
+.contactus_container .contactus_container button.button span {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 4px 12px;
+    background: #36454f;
+    border-radius: 1px !important;
+}
+.contactus_container .input-box-left,
+.contactus_container .input-box-right {
+    float: left;
+}
+.contactus_container .input-box-right {
+    margin-left: 10px;
+}
+.contactus_container .fieldset {
+    border: transparent !important;
+    background: none !important;
+}
+.topofstoreinfo {
+	padding-top: 5px;
+	margin-top: 20px !important;
+	border-top: 1px solid #bbb;
+}
+.topofstoreinfo .new-item {
+	margin-top: 5px;
+}
+/* FOR IE */
+* html .contactus_close { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/window_close.png", sizingMethod="crop"); }

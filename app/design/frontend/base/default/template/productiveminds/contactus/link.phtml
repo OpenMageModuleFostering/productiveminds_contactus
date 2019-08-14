@@ -1,0 +1,41 @@
+
+<?php
+	$store = Mage::app()->getStore();
+	$urlToShow = $this->getUrl('').'contactus/';			
+	$title = Mage::getStoreConfig('contactus_sectns/overlay_properties/title', $store);
+	$width = Mage::getStoreConfig('contactus_sectns/overlay_properties/width', $store);
+	$height = Mage::getStoreConfig('contactus_sectns/overlay_properties/height', $store);
+?>
+<a style="color:#900; font-weight:600;" id="contactusLink" href="#" onclick="contactusOverlayLink('<?php echo $urlToShow;?>')">Contact Us (by ProductiveMinds)</a>
+
+<script type="text/javascript">
+//<![CDATA[
+	function contactusOverlayLink(urlToShow) {
+		contactusPopup = new Window({
+	        id:'contactusConfirm_window',
+	        className: 'contactus',
+	        url: urlToShow,
+	        width: '<?php echo $width;?>',
+	        height: '<?php echo $height;?>',
+	        title: '<?php echo $title;?>',
+	        minimizable: false,
+	        maximizable: false,
+            hideEffect:Element.hide,
+            showEffect:Element.show,
+	        showEffectOptions: {
+	            duration: 0.7
+	        },
+	        hideEffectOptions:{
+	            duration: 0.7
+	        },
+	        destroyOnClose: true
+	    });
+		contactusPopup.setZIndex(888888);
+		contactusPopup.showCenter(true);
+	}
+	
+	function closePopup() {
+	    Windows.close('contactusConfirm_window');
+	}
+//]]>
+</script>
