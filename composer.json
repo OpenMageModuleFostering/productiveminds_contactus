@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Productiveminds_Contactus",
+    "name": "openmage-module-fostering\/productiveminds_contactus",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "The extension opens up the standard Magento contact us page as an overlay, which gives your customers the ability to leave a message without browsing away from their current page.",
     "authors": [

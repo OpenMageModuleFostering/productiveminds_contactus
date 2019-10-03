@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 The extension opens up the standard Magento contact us page as an overlay, which gives your customers the ability to leave a message without browsing away from their current page.
